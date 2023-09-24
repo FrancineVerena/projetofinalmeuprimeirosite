@@ -1,0 +1,98 @@
+html,body {
+    margin: 0;
+           
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+   
+}
+
+#menu{
+    float: right;
+}
+
+#imagem_fundo {
+    background: url("fundo.jpg");
+    height:100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 30%;
+    font-size: 60px;
+    line-height: 0.6;
+}
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.icone {
+    width: 400px;
+  
+}
+
+.section {
+       padding: 20px;
+       float: left
+     }
+
+.destaque{
+    background-color: #f7f7f7;
+   }
+.imgeco {
+    width: 30%;
+    
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+
+}
+
+.justificado{
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+
+        @media all and(max-width:768px) {
+            #menu{
+                visibility: hidden;
+            }
+            .coluna, .tres {
+                display: block;
+                width:80%;
+                padding:0;
+                margin:10px auto;
+                float: none;
+
+            }
+            #logodiv{
+                width: 100%;
+                position:relative;
+                text-align: center;
+              
+            }
+        }
